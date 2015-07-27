@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context="co.edu.udea.cmovil.gr6.ejercitandome.HomeActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffffff"
+        android:textSize="35dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/pesas" />
+
+    <Button
+        android:id="@+id/Ejercicios_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:onClick="ejerciciosBase"
+        android:text="Ejercicios" />
+
+    <Button
+        android:id="@+id/Experimentado_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="misRutinas"
+        android:text="Mis Rutinas" />
+
+</LinearLayout>

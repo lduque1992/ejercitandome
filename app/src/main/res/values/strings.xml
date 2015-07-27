@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ejercitandome</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_signout">Cerrar Sesión</string>
+    <string name="recordar">¿Desea recordar su contraseña?</string>
+    <string name="user">Usuario</string>
+    <string name="pass">Contraseña</string>
+    <string name="titulo">EJERCITANDOME</string>
+    <string name="password">Contraseña</string>
+    <string name="title_activity_home">Home</string>
+    <string name="registro">Registrarse</string>
+    <string name="iniciar">Iniciar Sesión</string>
+    <string name="facebook">Ingresar con Facebook</string>
+    <string name="twitter">Ingresar con Twitter</string>
+    <string name="title_activity_sing_up">SingUp</string>
+    <string name="title_activity_seleccion__nivel">Seleccion_Nivel</string>
+    <string name="title_activity_nivel__experimentado">Nivel_Experimentado</string>
+    <string name="title_activity_nivel__principiante">Nivel_Principiante</string>
+    <string name="title_activity_detalle_ejercicio">DetalleEjercicioActivity</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+</resources>

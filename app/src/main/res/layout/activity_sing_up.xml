@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context="co.edu.udea.cmovil.gr6.ejercitandome.SingUpActivity">
+
+    <EditText
+        android:id="@+id/Nombre_Usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="87dp"
+        android:ems="10"
+        android:hint="Digíte Su Nombre"
+        android:inputType="textCapWords"
+        android:textColor="#ffffffff"
+        android:textColorHighlight="#ffffffff"
+        android:textColorHint="#ffffffff"
+        android:textColorLink="#ffffffff" />
+
+    <EditText
+        android:id="@+id/email_singup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Digíte Su Correo Electrónico "
+        android:inputType="textEmailAddress"
+        android:textColor="#ffffffff"
+        android:textColorHighlight="#ffffffff"
+        android:textColorHint="#ffffffff"
+        android:textColorLink="#ffffffff" />
+
+    <EditText
+        android:id="@+id/nickname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Digíte Su Alias o NickName"
+        android:inputType="text"
+        android:textColor="#ffffffff"
+        android:textColorHighlight="#ffffffff"
+        android:textColorHint="#ffffffff"
+        android:textColorLink="#ffffffff" />
+
+
+    <EditText
+        android:id="@+id/password_singup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Digíte Su Contraseña"
+        android:inputType="textPassword"
+        android:textColor="#ffffffff"
+        android:textColorHighlight="#ffffffff"
+        android:textColorHint="#ffffffff"
+        android:textColorLink="#ffffffff" />
+
+    <EditText
+        android:id="@+id/repeat_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Repíta Su Contraseña"
+        android:inputType="textPassword"
+        android:textColor="#ffffffff"
+        android:textColorHighlight="#ffffffff"
+        android:textColorHint="#ffffffff"
+        android:textColorLink="#ffffffff" />
+
+    <Button
+        android:id="@+id/Crear_usuario_singup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nickname"
+        android:layout_marginTop="43dp"
+        android:onClick="signUp"
+        android:text="Registrarse" />
+</LinearLayout>
